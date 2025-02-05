@@ -1,0 +1,104 @@
+/* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico do body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Azul claro de fundo */
+    padding: 20px;
+}
+
+/* Estilo para a seção Sobre Mim */
+#sobre-mim {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    background-color: #ffffff; /* Cor de fundo branca */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 100px;
+}
+/* Cabeçalho e navegação */
+header {
+    background: #333;
+    color: #fff;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.espaço{
+    width: 100px;
+    height: 300px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+  
+nav ul li {
+    margin: 0 15px;
+}
+  
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+  
+nav ul li a:hover {
+    color: #f4a261;
+}
+.texto{
+  display: flex;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e90ff;
+    font-size: 10vh;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    color: #1e90ff;
+}
+a:hover{
+    color: #f4a261;
+    font-size: x-large;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-left: 100px;
+}
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e90ff; /* Azul forte no rodapé */
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
